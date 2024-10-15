@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="viewValue">
+    <config key="filter">
+        <entry key="id" type="xstring" value="3c2adb68-fdcd-4f3c-b091-be6bff3ce57f"/>
+        <config key="rows"/>
+        <entry key="numColumns" type="xint" value="1"/>
+        <entry key="type_0" type="xstring" value="numeric"/>
+        <config key="col_0">
+            <entry key="columnName" type="xstring" value="Year"/>
+            <entry key="minimum" type="xdouble" value="2018.0"/>
+            <entry key="maximum" type="xdouble" value="2023.0"/>
+            <entry key="minimumInclusive" type="xboolean" value="true"/>
+            <entry key="maximumInclusive" type="xboolean" value="true"/>
+        </config>
+    </config>
+</config>
