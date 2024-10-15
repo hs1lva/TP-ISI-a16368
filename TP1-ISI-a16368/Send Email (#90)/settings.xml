@@ -21,11 +21,11 @@
         <entry key="cc" type="xstring" value=""/>
         <entry key="bcc" type="xstring" value=""/>
         <entry key="replyTo" type="xstring" value=""/>
-        <entry key="subject" type="xstring" value="Workflow finished"/>
-        <entry key="text" type="xstring" value="Segue em anexo a tabela atualizada com as cotações das ações do PSI-20."/>
+        <entry key="subject" type="xstring" value="Workflow finished - Lista Ações PSI-20"/>
+        <entry key="text" type="xstring" value="Os dados encontram-se atualizados no google sheets."/>
         <config key="attachedURLs">
             <entry key="array-size" type="xint" value="1"/>
-            <entry key="0" type="xstring" value="file:/C:%5CUsers%5Chugo2%5Cknime-workspace%5CTP1-ISI-a16368%5Cdata%5CStockPTDetails.xlsx"/>
+            <entry key="0" type="xstring" value="file:/C:/Users/hugo2/AppData/Local/Programs/KNIME/1wsChCfFhYle04zYPrAZWSQKscjXYYVsyd4YpSi2ixRU"/>
         </config>
         <entry key="smtpConnectionTimeout" type="xint" value="2000"/>
         <entry key="smtpReadTimeout" type="xint" value="30000"/>

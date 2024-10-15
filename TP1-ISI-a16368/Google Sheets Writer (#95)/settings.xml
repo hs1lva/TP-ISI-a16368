@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="spreadsheetName"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="Stocks PSI-20"/>
+        </config>
+        <config key="Variable_1">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="spreadsheetId"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="1wsChCfFhYle04zYPrAZWSQKscjXYYVsyd4YpSi2ixRU"/>
+        </config>
+        <config key="Variable_2">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="sheetName"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="List.PSI-20"/>
+        </config>
+    </config>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="writeColName_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="writeColName" type="xboolean" value="true"/>
+        <config key="writeRowId_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="writeRowId" type="xboolean" value="true"/>
+        <config key="columnFilter_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="columnFilter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="19"/>
+                <entry key="0" type="xstring" value="symbols"/>
+                <entry key="1" type="xstring" value="names"/>
+                <entry key="2" type="xstring" value="currencys"/>
+                <entry key="3" type="xstring" value="stockExchanges"/>
+                <entry key="4" type="xstring" value="prices"/>
+                <entry key="5" type="xstring" value="changesPercentages"/>
+                <entry key="6" type="xstring" value="changes"/>
+                <entry key="7" type="xstring" value="dayLows"/>
+                <entry key="8" type="xstring" value="dayHighs"/>
+                <entry key="9" type="xstring" value="yearHighs"/>
+                <entry key="10" type="xstring" value="yearLows"/>
+                <entry key="11" type="xstring" value="marketCaps"/>
+                <entry key="12" type="xstring" value="opens"/>
+                <entry key="13" type="xstring" value="previousCloses"/>
+                <entry key="14" type="xstring" value="epss"/>
+                <entry key="15" type="xstring" value="pes"/>
+                <entry key="16" type="xstring" value="earningsAnnouncements"/>
+                <entry key="17" type="xstring" value="sharesOutstandings"/>
+                <entry key="18" type="xstring" value="Symbol"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+        <config key="openAfterExecution_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="openAfterExecution" type="xboolean" value="false"/>
+        <config key="missingValue_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMN_string_disact"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="missingValue" type="xstring" value=""/>
+        <entry key="missingValue_BOOL" type="xboolean" value="false"/>
+        <config key="writeRaw_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="writeRaw" type="xboolean" value="true"/>
+        <config key="spreadsheetName_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="spreadsheetName" type="xstring" value="Stocks PSI-20"/>
+        <config key="sheetName_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="sheetName" type="xstring" value="List.PSI-20"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.google.api.sheets.nodes.spreadsheetwriter.GoogleSpreadsheetWriterFactory"/>
+    <entry key="node-name" type="xstring" value="Google Sheets Writer"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Google API Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.google.api"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.2.v202409010954"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Google Connectors"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.google.api.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.2.v202409010954"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Google Sheets Writer"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports"/>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="12d81b08-6e19-42b1-8a55-d51df8c11532"/>
+    </config>
+</config>
