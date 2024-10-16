@@ -16,7 +16,7 @@
                 <config key="0">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Row0_1169_Row0_684_Row9"/>
+                        <entry key="StringCell" type="xstring" value="Row0_1171_Row0_684_Row9"/>
                     </config>
                 </config>
             </config>
