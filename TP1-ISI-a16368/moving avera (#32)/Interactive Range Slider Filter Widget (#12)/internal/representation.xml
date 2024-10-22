@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="viewRepresentation">
-    <entry key="tableID" type="xstring" value="c90167bf-a1dd-4431-a888-956133cbcc4b"/>
-    <entry key="filterID" type="xstring" value="77946da5-d0a6-4ced-b700-29323bd6a6ea"/>
+    <entry key="tableID" type="xstring" value="609fb5cf-3412-48fb-ab1e-ffdae850b77f"/>
+    <entry key="filterID" type="xstring" value="24c6d424-1a63-4e96-9277-8b49d194703c"/>
     <entry key="disabled" type="xboolean" value="false"/>
 </config>

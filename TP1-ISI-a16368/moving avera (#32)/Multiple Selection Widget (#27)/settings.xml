@@ -6,13 +6,13 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="filter"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="AAPL"/>
+            <entry key="value" type="xstring" value=""/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="filter"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="AAPL"/>
+            <entry key="value" type="xstring" value=""/>
         </config>
     </config>
     <config key="internal_node_subsettings">
@@ -557,6 +557,10 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Node created an empty data table."/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.js.base.node.widget.selection.multiple.MultipleSelectionWidgetNodeFactory"/>
     <entry key="node-name" type="xstring" value="Multiple Selection Widget"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
@@ -576,12 +580,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 1"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 0, Cols: 1"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="cd0a6f67-d5ee-466f-9d1e-6a2fdd795935"/>
+        <entry key="file_store_id" type="xstring" value="cf5721ac-7d40-4ee8-bc9e-9133b8eb7f58"/>
     </config>
 </config>

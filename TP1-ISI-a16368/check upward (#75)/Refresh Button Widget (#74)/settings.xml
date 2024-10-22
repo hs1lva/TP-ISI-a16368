@@ -6,13 +6,13 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="refresh-button-counter"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1"/>
+            <entry key="value" type="xint" value="0"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="refresh-button-timestamp"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="2024-10-16T15:19:04.524Z"/>
+            <entry key="value" type="xstring" value=""/>
         </config>
         <config key="Variable_2">
             <entry key="type" type="xstring" value="variable"/>
@@ -24,13 +24,13 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="refresh-button-counter"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="1"/>
+            <entry key="value" type="xint" value="0"/>
         </config>
         <config key="Variable_4">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="refresh-button-timestamp"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value="2024-10-16T15:19:04.524Z"/>
+            <entry key="value" type="xstring" value=""/>
         </config>
         <config key="Variable_5">
             <entry key="type" type="xstring" value="variable"/>
@@ -93,6 +93,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="15f37823-fac1-4634-a933-912c50951302"/>
+        <entry key="file_store_id" type="xstring" value="474938ed-3ac0-48a4-ae5f-940d88708d99"/>
     </config>
 </config>

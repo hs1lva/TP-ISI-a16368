@@ -93,7 +93,7 @@
         <entry key="sheetName" type="xstring" value="List.PSI-20"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="state" type="xstring" value="IDLE"/>
     <entry key="factory" type="xstring" value="org.knime.google.api.sheets.nodes.spreadsheetwriter.GoogleSpreadsheetWriterFactory"/>
     <entry key="node-name" type="xstring" value="Google Sheets Writer"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Google API Nodes"/>

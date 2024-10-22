@@ -6,30 +6,61 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="input.column" type="xstring" isnull="true" value=""/>
+        <entry key="input.column" type="xstring" value="body"/>
         <entry key="remove.input.column" type="xboolean" value="false"/>
         <config key="newColumnName">
-            <entry key="array-size" type="xint" value="0"/>
+            <entry key="array-size" type="xint" value="7"/>
+            <entry key="0" type="xstring" value="dates"/>
+            <entry key="1" type="xstring" value="opens"/>
+            <entry key="2" type="xstring" value="highs"/>
+            <entry key="3" type="xstring" value="lows"/>
+            <entry key="4" type="xstring" value="closes"/>
+            <entry key="5" type="xstring" value="volumes"/>
+            <entry key="6" type="xstring" value="smas"/>
         </config>
         <config key="jsonpath">
-            <entry key="array-size" type="xint" value="0"/>
+            <entry key="array-size" type="xint" value="7"/>
+            <entry key="0" type="xstring" value="$[*]['date']"/>
+            <entry key="1" type="xstring" value="$[*]['open']"/>
+            <entry key="2" type="xstring" value="$[*]['high']"/>
+            <entry key="3" type="xstring" value="$[*]['low']"/>
+            <entry key="4" type="xstring" value="$[*]['close']"/>
+            <entry key="5" type="xstring" value="$[*]['volume']"/>
+            <entry key="6" type="xstring" value="$[*]['sma']"/>
         </config>
         <config key="result.is.list">
-            <entry key="array-size" type="xint" value="0"/>
+            <entry key="array-size" type="xint" value="7"/>
+            <entry key="0" type="xboolean" value="true"/>
+            <entry key="1" type="xboolean" value="true"/>
+            <entry key="2" type="xboolean" value="true"/>
+            <entry key="3" type="xboolean" value="true"/>
+            <entry key="4" type="xboolean" value="true"/>
+            <entry key="5" type="xboolean" value="true"/>
+            <entry key="6" type="xboolean" value="true"/>
         </config>
         <config key="return.paths.instead.of.values">
-            <entry key="array-size" type="xint" value="0"/>
+            <entry key="array-size" type="xint" value="7"/>
+            <entry key="0" type="xboolean" value="false"/>
+            <entry key="1" type="xboolean" value="false"/>
+            <entry key="2" type="xboolean" value="false"/>
+            <entry key="3" type="xboolean" value="false"/>
+            <entry key="4" type="xboolean" value="false"/>
+            <entry key="5" type="xboolean" value="false"/>
+            <entry key="6" type="xboolean" value="false"/>
         </config>
         <config key="returnType">
-            <entry key="array-size" type="xint" value="0"/>
+            <entry key="array-size" type="xint" value="7"/>
+            <entry key="0" type="xstring" value="String"/>
+            <entry key="1" type="xstring" value="Double"/>
+            <entry key="2" type="xstring" value="Double"/>
+            <entry key="3" type="xstring" value="Double"/>
+            <entry key="4" type="xstring" value="Double"/>
+            <entry key="5" type="xstring" value="Integer"/>
+            <entry key="6" type="xstring" value="Double"/>
         </config>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="IDLE"/>
-    <config key="nodecontainer_message">
-        <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="No JSON path was specified, please enter at least one expression!"/>
-    </config>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.json.node.jsonpath.multi.JSONPathNodeFactory"/>
     <entry key="node-name" type="xstring" value="JSON Path"/>
     <entry key="node-bundle-name" type="xstring" value="JSON related functionality for KNIME"/>
@@ -42,16 +73,19 @@
     <entry key="node-feature-version" type="xstring" value="5.3.0.v202406280759"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="JSON Path"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 10, Cols: 12"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="97627120-a1d1-45dd-a034-e7230f6735dc"/>
     </config>
 </config>

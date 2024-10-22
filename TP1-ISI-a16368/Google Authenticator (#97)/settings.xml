@@ -47,7 +47,11 @@
     </config>
     <config key="variables"/>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Please use the configuration dialog to log in first."/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.google.api.nodes.authenticator.GoogleAuthenticatorNodeFactory"/>
     <entry key="node-name" type="xstring" value="Google Authenticator"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Google API Nodes"/>

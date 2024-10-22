@@ -234,7 +234,7 @@
         </config>
         <config key="column_properties"/>
         <config key="filter_handler">
-            <entry key="id" type="xstring" value="77946da5-d0a6-4ced-b700-29323bd6a6ea"/>
+            <entry key="id" type="xstring" value="24c6d424-1a63-4e96-9277-8b49d194703c"/>
             <entry key="type" type="xstring" value="range"/>
             <entry key="minimum" type="xdouble" value="2018.0"/>
             <entry key="maximum" type="xdouble" value="2023.0"/>
