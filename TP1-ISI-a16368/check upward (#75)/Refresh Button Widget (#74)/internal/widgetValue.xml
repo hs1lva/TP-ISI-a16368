@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="widgetValue">
-    <entry key="refreshCounter" type="xint" value="1"/>
-    <entry key="refreshTimestamp" type="xstring" value="2024-10-16T15:19:04.524Z"/>
+    <entry key="refreshCounter" type="xint" value="3"/>
+    <entry key="refreshTimestamp" type="xstring" value="2024-10-23T10:30:05.180Z"/>
 </config>

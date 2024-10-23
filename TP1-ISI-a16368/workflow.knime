@@ -8,7 +8,7 @@
         <entry key="authored-by" type="xstring" value="hugo2"/>
         <entry key="authored-when" type="xstring" value="2024-10-09 15:18:26 +0100"/>
         <entry key="lastEdited-by" type="xstring" value="hugo2"/>
-        <entry key="lastEdited-when" type="xstring" value="2024-10-22 23:17:42 +0100"/>
+        <entry key="lastEdited-when" type="xstring" value="2024-10-23 11:39:12 +0100"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="IDLE"/>
@@ -1208,21 +1208,21 @@
         </config>
         <config key="connection_14">
             <entry key="sourceID" type="xint" value="18"/>
-            <entry key="destID" type="xint" value="95"/>
+            <entry key="destID" type="xint" value="12"/>
             <entry key="sourcePort" type="xint" value="1"/>
-            <entry key="destPort" type="xint" value="2"/>
+            <entry key="destPort" type="xint" value="1"/>
         </config>
         <config key="connection_15">
             <entry key="sourceID" type="xint" value="18"/>
-            <entry key="destID" type="xint" value="12"/>
+            <entry key="destID" type="xint" value="13"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
         </config>
         <config key="connection_16">
             <entry key="sourceID" type="xint" value="18"/>
-            <entry key="destID" type="xint" value="13"/>
+            <entry key="destID" type="xint" value="95"/>
             <entry key="sourcePort" type="xint" value="1"/>
-            <entry key="destPort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="2"/>
         </config>
         <config key="connection_17">
             <entry key="sourceID" type="xint" value="18"/>
@@ -1282,21 +1282,21 @@
         </config>
         <config key="connection_25">
             <entry key="sourceID" type="xint" value="88"/>
-            <entry key="destID" type="xint" value="32"/>
+            <entry key="destID" type="xint" value="75"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
         </config>
         <config key="connection_26">
             <entry key="sourceID" type="xint" value="88"/>
-            <entry key="destID" type="xint" value="75"/>
-            <entry key="sourcePort" type="xint" value="1"/>
-            <entry key="destPort" type="xint" value="1"/>
-        </config>
-        <config key="connection_27">
-            <entry key="sourceID" type="xint" value="88"/>
             <entry key="destID" type="xint" value="128"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="2"/>
+        </config>
+        <config key="connection_27">
+            <entry key="sourceID" type="xint" value="88"/>
+            <entry key="destID" type="xint" value="32"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
         </config>
         <config key="connection_28">
             <entry key="sourceID" type="xint" value="89"/>
@@ -1410,7 +1410,7 @@
         </config>
         <config key="connection_45">
             <entry key="sourceID" type="xint" value="121"/>
-            <entry key="destID" type="xint" value="118"/>
+            <entry key="destID" type="xint" value="120"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
             <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
@@ -1420,7 +1420,7 @@
         </config>
         <config key="connection_46">
             <entry key="sourceID" type="xint" value="121"/>
-            <entry key="destID" type="xint" value="120"/>
+            <entry key="destID" type="xint" value="118"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
             <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>

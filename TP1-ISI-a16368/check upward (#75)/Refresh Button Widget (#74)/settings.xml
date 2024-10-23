@@ -6,13 +6,13 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="refresh-button-counter"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="0"/>
+            <entry key="value" type="xint" value="3"/>
         </config>
         <config key="Variable_1">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="refresh-button-timestamp"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value=""/>
+            <entry key="value" type="xstring" value="2024-10-23T10:30:05.180Z"/>
         </config>
         <config key="Variable_2">
             <entry key="type" type="xstring" value="variable"/>
@@ -24,13 +24,13 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="refresh-button-counter"/>
             <entry key="class" type="xstring" value="INTEGER"/>
-            <entry key="value" type="xint" value="0"/>
+            <entry key="value" type="xint" value="3"/>
         </config>
         <config key="Variable_4">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="refresh-button-timestamp"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value=""/>
+            <entry key="value" type="xstring" value="2024-10-23T10:30:05.180Z"/>
         </config>
         <config key="Variable_5">
             <entry key="type" type="xstring" value="variable"/>
@@ -93,6 +93,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="474938ed-3ac0-48a4-ae5f-940d88708d99"/>
+        <entry key="file_store_id" type="xstring" value="970c3cbb-4234-4bad-a625-37bc10100e90"/>
     </config>
 </config>

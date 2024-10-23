@@ -20,14 +20,15 @@
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="RowID"/>
             <entry key="class" type="xstring" value="STRING"/>
-            <entry key="value" type="xstring" value=""/>
+            <entry key="value" type="xstring" value="Row0"/>
         </config>
         <config key="Variable_3">
             <entry key="type" type="xstring" value="variable"/>
             <entry key="name" type="xstring" value="filter"/>
             <entry key="class" type="xstring" value="STRINGARRAY"/>
             <config key="value">
-                <entry key="array-size" type="xint" value="0"/>
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="AAPL"/>
             </config>
         </config>
     </config>
@@ -134,6 +135,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="4d7b8c51-f8bf-4a2d-ba77-92b51a6ee975"/>
+        <entry key="file_store_id" type="xstring" value="e48a9512-9abf-4594-a522-59091a15e40d"/>
     </config>
 </config>

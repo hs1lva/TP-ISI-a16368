@@ -35,7 +35,7 @@
                 <entry key="array-size" type="xint" value="0"/>
             </config>
         </config>
-        <entry key="loginCredentialRef_Internals" type="xstring" value="74f623f0-c25b-42db-ac0f-6217e8436ba3"/>
+        <entry key="loginCredentialRef_Internals" type="xstring" value="1ff43e5c-0a41-493a-a508-83bad9165ee9"/>
         <entry key="useCustomClientId" type="xboolean" value="false"/>
         <config key="customClientIdFile">
             <config key="path">
@@ -47,11 +47,7 @@
     </config>
     <config key="variables"/>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="IDLE"/>
-    <config key="nodecontainer_message">
-        <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="Please use the configuration dialog to log in first."/>
-    </config>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.google.api.nodes.authenticator.GoogleAuthenticatorNodeFactory"/>
     <entry key="node-name" type="xstring" value="Google Authenticator"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Google API Nodes"/>
@@ -64,16 +60,21 @@
     <entry key="node-feature-version" type="xstring" value="5.3.2.v202409010954"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Google Authenticator"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.credentials.base.CredentialPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.credentials.base.CredentialPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Credential (Google)"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="ca2920cb-2ba7-4a6b-912d-9006565924f5"/>
     </config>
 </config>
